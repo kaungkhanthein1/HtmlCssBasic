@@ -33,6 +33,6 @@ To Push =>
 git add .
 git commit -m <commit-name>
 git push
-
+P
 To Pull => 
 git pull
