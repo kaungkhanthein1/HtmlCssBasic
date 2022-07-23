@@ -1,15 +1,53 @@
-body {
-    background-color: powderblue;
+
+  body{
+    font-size: 20px;
+    background-image: url(../images/founded.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: 400px 300px;
   }
   table {
-    color: blue;
+    color: rgb(63, 63, 76);
+  }
+  table,th,tr,td{
+    border:2px solid black;
   }
   p {
     color: red;
   }
   .beauty {
-   color:brown;
+   color:rgb(113, 43, 108);
    margin:50px;
    border:2px solid;
    width: 50%;
    }
+  .under li:first-child{
+    background-color: rgb(220, 148, 89);
+  }
+  .under li:nth-child(2n){
+    background-color:rgb(111, 57, 95);
+  }
+  .under li:last-child{
+    color:rgb(64, 160, 181);
+    font-weight: bold;
+  }
+  .margin{
+    margin:100px 50px;
+    border:2px solid red;
+    width:300px;
+    height:300px;
+    box-sizing: border-box;
+  }
+  .padding{
+    padding:60px 80px;
+    border:2px dotted blue;
+    width:300px;
+    height:300px;
+    box-sizing: border-box;
+  }
+input:focus
+         {
+          background-color: red;
+        }
+        

@@ -7,7 +7,9 @@ Eg., <html></html>
      <body></body>
      <p></p>
      <h1></h1>
-
+*Attribute
+Eg., <a href="...">
+a=element , href=attribute
 Inline And Block
 ----------------
 

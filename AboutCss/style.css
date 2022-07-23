@@ -1,0 +1,33 @@
+form{
+    margin:auto;
+    border:2px dotted rgb(63, 54, 54);
+    width:50%;
+    box-sizing: border-box;
+    padding:20px;
+    font-size: 22px;
+}
+
+input,select{
+    margin:20px;
+}
+
+input:hover{
+    background-color: rgb(52, 181, 85);
+}
+#bold{
+    font-weight: bold;
+}
+table{
+    width:600px;
+    height:500px;
+    margin:40px 60px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+th , td{
+    text-align:center;
+    padding:5px;
+    border:2px solid rgb(11, 20, 43);
+    width:50;
+    height:30;
+}
